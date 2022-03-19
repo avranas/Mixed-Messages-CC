@@ -35,18 +35,18 @@ function addRandHeartOrStar(string){
 
 //Always use one of these
 const prefixes = [
-    'MAX', 'MAXX', 'New', 'Triple', 'LUV', 'LOVE', 'Digital', 'Fascination', 'Fly', 'HAPPY', 'In the', 'La', 'Sakura', 'Sparkle', 'Candy'
+    'MAX', 'MAXX', 'New', 'Triple', 'LUV', 'LOVE', 'Digital', 'Fascination', 'Fly', 'HAPPY', 'La', 'Sakura', 'Sparkle', 'Candy', 'Valkyrie', 'Dance', 'Over the', 'PARANOIA', 'ACE'
 ];
 
 //Always use one of these
 const mainTitles = [
-    'AFRONOVA', 'AM-3P', 'B4U', 'BRILLIANT 2U', 'PARANOIA', 'Pluto', 'POSSESSION', 'Put Your Faith In Me', 'Saber Wing', 'TRIP MACHINE', 'Angel', '300', 'Mermaid Girl', 'Mirage', 'Reflection', 'storm', 'Sunrise', 'Moon', 'Seduction', 'shine', 'candy', 'dream', "Smilin'", 'Snowy Dance', 'Heart'
+    'AFRONOVA', 'B4U', '2U', 'PARANOIA', 'Pluto', 'POSSESSION', 'Saber Wing', 'TRIP MACHINE', 'Angel', '300', 'Mermaid Girl', 'Mirage', 'Reflection', 'storm', 'Sunrise', 'Moon', 'Seduction', 'shine', 'candy', 'dream', "Smilin'", 'Snowy Dance', 'Heart', 'Butterly', 'Revolution', 'Party', "Period", '440', '360', '180', 
 ];
 
 
 //25% chance of using a remix
 const remixes = [
-    'BOY ON BOY MIX', '(X-Special)', 'Terror-Tech Mix', '~Angelic Mix~', 'Jungle Mix', 'Endorphins Mix', '(MOMO MIX)', '(FROM NONSTOP MEGAMIX)', '(extreme version)', '(xac nanoglide mix)', '~luv mix~', 'MAX', 'SURVIVOR MAX'
+    'BOY ON BOY MIX', '(X-Special)', 'Terror-Tech Mix', '~Angelic Mix~', 'Jungle Mix', '(MOMO MIX)', '(FROM NONSTOP MEGAMIX)', '(extreme version)', '(xac nanoglide mix)', '~luv mix~', 'MAX', 'SURVIVOR MAX', '"GROOVE RADAR" Special)', 'DDR Mix', 'ver. A', 'ver. B', 'ver. C', 'kskst mix', 'DDR Edition', '("AIR" Special)', '("CHAOS" Special)', '("STREAM" Special)', '("VOLTAGE" Special)', '("FREEZE" Special)'
 ];
 
 const prefix = prefixes[randInt(prefixes.length)];
